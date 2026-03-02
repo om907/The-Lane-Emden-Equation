@@ -1,5 +1,5 @@
 # The Lane Emden Chandrasekhar Equation
-The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved in it. To understand this needs elementary knowledge and bit of numerical solving of equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
+The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
 We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for n = 1 ( well known solution ) , then for general n. We will also compare the solution and parameters for various n. 
 
