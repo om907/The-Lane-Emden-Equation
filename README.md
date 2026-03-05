@@ -9,4 +9,7 @@ Along the way we will ask ourselves and answer multiple what if questions, so it
 Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention them, so that I can rectify them.
 I am myself learning, and always hungry for knowing more, so feel free to ask me questions on my [gmail](omshah0405@gmail.com). If I know, I will surely respond, and if I don't nevertheless will learn something new!
 
-Now, that my intentions are clear, let us begin with understanding the Lane Emden Chandrasekhar Equation,
+Let us begin understanding the Lane Emden Chandrasekhar Equation.
+
+Suppose in a given space there is nothing to consider. Now, I add a source there. A source is a aggregate body of mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$.
+This is a conservative field, that itself creates a force field around the source given by $\vec{F}=-\vec{\nabla}V$.
