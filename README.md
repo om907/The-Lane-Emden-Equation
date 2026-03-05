@@ -12,11 +12,13 @@ I am myself learning, and always hungry for knowing more, so feel free to ask me
 Let us begin understanding the Lane Emden Chandrasekhar Equation.
 
 The gravitational Gauss law states that $\textit{The gravitational flux through any closed surface is proportional to the enclosed mass.}$
-Differential form is $\nabla\cdot \vec{g} = - 4 \pi G \rho$.
+Differential form is $\vec{\nabla}\cdot \vec{g} = - 4 \pi G \rho$.
 Integral form is $\iint \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
 
+Suppose in a given space there is nothing to consider. Now, I add a source there. A source is a aggregate body of unit mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$. This is $\textit{considered}$ a conservative field, that itself creates a force field around the source given by $\vec{F}=-\nabla V$. The force field is also given by $\vec{F}=m\vec{g}=\vec{g}$, (assume m=1). 
+<!-- If we are allowed write some vector as a gradient of a scalar then $\vec{\nabla} × \vec{g}=0$. -->
 
-Suppose in a given space there is nothing to consider. Now, I add a source there. A source is a aggregate body of unit mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$. This is $\textit{considered}$ a conservative field, that itself creates a force field around the source given by $\vec{F}=-\vec{\nabla}V$. The force field is also given by $\vec{F}=m\vec{g}=\vec{g} \; (m=1)$ If we are allowed write some vector as a gradient of a scalar then $\vec{\nabla} × \vec{F}=0$. 
+Substitute in gauss law, $\vec{g}=-\nabla V$ becomes $\vec{\nabla} \cdot -\nabla V = - 4 \pi G \rho$, or $\nabla^{2} V = 4 \pi G \rho$ which is the poisson's equation of gravitational gauss law.
 
 
 
