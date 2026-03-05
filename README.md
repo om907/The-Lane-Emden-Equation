@@ -13,7 +13,7 @@ Let us begin understanding the Lane Emden Chandrasekhar Equation.
 
 The gravitational Gauss law states that $\textit{The gravitational flux through any closed surface is proportional to the enclosed mass.}$
 Differential form is $\nabla\cdot \vec{g} = - 4 \pi G \rho$.
-Integral form is $\int\int \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
+Integral form is $\iint \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
 Suppose in a given space there is nothing to consider. Now, I add a source there. A source is a aggregate body of mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$. This is $\textit{considered}$ a conservative field, that itself creates a force field around the source given by $\vec{F}=-\vec{\nabla}V$. 
 If we are allowed write some vector as a gradient of a scalar then
 $\vec{\nabla}\cross\vec{F}=0$ 
