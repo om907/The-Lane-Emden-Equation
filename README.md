@@ -25,25 +25,30 @@ The laplacian of f(x,y) is divergence of a gradient of f(x,y). The gradient of f
 Now, suppose the shape of the massive object in 3 dimensional space is **_spherically symmetric_**. The polar angle and azimuthal angle components are a constant. We primarily consider the density profile of the object given by 
 $\rho = \rho (r)$.
 The density profile is strictly related to radial distance. The mass profile of the object is given by
-$\mathrm{d}M= \int \rho \mathrm{d}V$. 
+① $\mathrm{d}M= \int \rho \mathrm{d}V$. 
 Intuitively, we can state that potential field $V=V(r)$ created due to presence of mass is also strictly related to radial distance. This is because of gravitational field $\vec{g} = \vec{g} (r)$. 
 
 So the laplacian of V can be rewritten as, 
-① $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$
+② $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$
 
-② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩
+<!--  ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ -->
 
-Let suppose body is a star and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction (represented by the part $\frac{\mathrm{d}P}{\mathrm{d}r}$), 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field (represented by RHS). The equation is given by
-② $\frac{\mathrm{d}P}{\mathrm{d}r} = -\frac{G M(r) \rho (r)}{r^2}$.
+Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction (represented by the part $\frac{\mathrm{d}P}{\mathrm{d}r}$), 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field (represented by RHS). The equation is given by
+③ $\frac{\mathrm{d}P}{\mathrm{d}r} = -\frac{G M(r) \rho (r)}{r^2}$.
 
-Here we introduce a _parametrization of density profile_ of the form 
+Here we introduce a **_parametrization of density profile_** of the form 
 $\rho(r) = \rho_{c} \theta(r)^{n}$, where $\rho_{c}$ is the central density, $n$ is the polytropic index of ideal gas gas equation and  $\theta(r)$ is a dimensionless variable, which we are interested in. 
+
 Note: a general solution of $\rho(r)$ to the parital differential equation will be of the form 
 $\rho(r) = C_{1} e^{C_{2} r^C_{3}}$. 
+
 To include $\rho_{c}$ and polytropic index $n$, the solution is modified into 
-$\rho(r) = \rho_{c} e^{-\mathrm{log_e} C_{1}}$ 
+$\rho(r) = \rho_{c} e^{-\mathrm{log_e} C_{1}}$
 $\mathrm{log_e} \rho(r) = \mathrm{log_e} \rho_{c} + n\mathrm{log_e}\theta(r)$. 
+
 Density at any point can be related to the central density by this new function. Now they could have related 
+
+
 
 
 
