@@ -36,8 +36,11 @@ So the laplacian of V can be rewritten as,
 Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction (represented by the part $\frac{\mathrm{d}P}{\mathrm{d}r}$), 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field (represented by RHS). The equation is given by
 ③ $\frac{\mathrm{d}P}{\mathrm{d}r} = -\frac{G M(r) \rho (r)}{r^2}$.
 
+
 This allows us to rewrite the hydrostatic equilibrium equation as, 
-$\frac{\mathrm{d}\\rho}{\mathrm{d}r} = - \frac{1}{\rho(r)} \frac{\mathrm{d}P}{\mathrm{d}r}$
+$\frac{\mathrm{d}V}{\mathrm{d}r} = - \frac{1}{\rho(r)} \frac{\mathrm{d}P}{\mathrm{d}r}$
+
+
 Here we introduce a **_parametrization of density profile_** of the form 
 $\rho(r) = \rho_{c} \theta(r)^{n}$, where $\rho_{c}$ is the central density, $n$ is the polytropic index of ideal gas equation and $\theta(r)$ is a dimensionless variable, which we are interested in. 
 
