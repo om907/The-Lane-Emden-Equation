@@ -38,7 +38,7 @@ Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, thi
 On simplification, this equation becomes, 
 ③ $\frac{\mathrm{d}P}{\mathrm{d}r} = -\frac{G M(r) \rho (r)}{r^2}$.
 
-$\vec{F}=-\nabla V$ and $F=-\frac{G M}{r^{2}}$ allows us to rewrite the hydrostatic equilibrium equation as 
+$\vec{F}=-\nabla V$ and $F=\frac{G M(r)}{r^{2}}$ allows us to rewrite the hydrostatic equilibrium equation as 
 $\frac{\partial V}{\partial r} = - \frac{1}{\rho} \frac{\partial P}{\partial r}$.
 
 Therefore, one can write the laplacian of $V$ (Eq.②) as simple combination of mass profile equation and hydrostatic equilibrium.  
