@@ -36,7 +36,7 @@ $\rho(r) = \rho_{c} \theta(r)^{n}$, where $\rho_{c}$ is the central density, $n$
 Note: a general solution of $\rho(r)$ to the parital differential equation will be of the form 
 $\rho(r) = C_{1} e^{C_{2} r^C_{3}}$.
 To include $\rho_{c}$ and polytropic index $n$, the solution is modified into
-$\rho(r) = \rho_{c} e^{-\mathrm{log_e} C_{1}} 
+$\rho(r) = \rho_{c} e^{-\mathrm{log_e} C_{1}}$ 
 $\mathrm{log_e} \rho(r) = \mathrm{log_e} \rho_{c} + n\mathrm{log_e}\theta(r)$.
 Density at any point can be related to the central density by this new function. Now they could have related 
 
