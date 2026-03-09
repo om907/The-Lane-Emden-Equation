@@ -33,7 +33,7 @@ So the laplacian of V can be rewritten as,
 
 <!--  ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ -->
 
-Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction (represented by the part $\frac{\mathrm{d}P}{\mathrm{d}r}$), 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field (represented by RHS). The equation is given by
+Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction, 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field. The equation is given by
 ③ $F = \frac{\mathrm{d}P}{\mathrm{d}r}\mathrm{d}r\mathrm{d}A = -\frac{G M(r) \rho (r)}{r^2}\mathrm{d}r\mathrm{d}A$.
 
 $\vec{F}=-\nabla V$ allows us to rewrite the hydrostatic equilibrium equation as 
