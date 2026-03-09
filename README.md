@@ -35,7 +35,7 @@ $\nabla^{2} V = \frac{1}{r^2}\frac{\partial^2}{\partial r^2}\big( r^2 \frac{\par
 We have came across various parametrizations like for an ellipse 
 $x = a \cos \theta, \qquad y = b \sin \theta$, here we introduce a parametrization of the form 
 $\rho(r) = \rho_{c} \theta(r)^{n}$, where $\rho_{c}$ is the central density and $\theta(r)$ is a dimensionless variable, which we are interested in. 
-Note: $\mathrm{log}_e \rho(r) = \mathrm{log}_e \rho_{c} + n\mathrm{log}_e \theta(r)$
+Note: $\mathrm{log_e} \rho(r) = \mathrm{log_e} \rho_{c} + n\mathrm{log_e}\theta(r)$
 Density at any point can be related to the central density 
 
 
