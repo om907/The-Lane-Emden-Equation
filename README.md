@@ -53,7 +53,9 @@ This equation can be understood by understanding $n$, that is when $n=0$ process
 Here we introduce a **_parametrization of density profile_** of the form 
 ⑤ $\rho(r) = \rho_{c} \theta(r)^{n}$ where $\rho_{c}$ is the central density, $n$ is the polytropic index of ideal gas equation and $\theta(r)$ is a dimensionless variable, which we are interested in. Density at any point can be related to the central density by this new function. The essence of this equation lies in $n$, which connects the density profile to polytropic ideal gas equation. 
 
-Introducing ④ and ⑤ to the laplacian of $V$ gives the following steps to achieve the lane - emden equation. 
+Introducing ④ and ⑤ to the laplacian of $V$ we do the following steps to achieve the lane - emden equation. 
+$\frac{1}{r^2}\frac{\partial}{\partial r}\big( \frac{r^2}{\rho} \frac{\partial P}{\partial r}\big)  = 4 \pi G \rho(r)$
+
 
 
 
