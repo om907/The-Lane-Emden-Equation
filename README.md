@@ -192,10 +192,7 @@ To avoid ComplexInfinity, I have modified $a$ and $P$ also.
 
 For $n$ integer values ranging from 0 to 6, the solutions are displayed below;
 
-<p align="center">
-  <img src="images/theta.svg" width="500">
-</p>
-
+![Diagram](./images/theta.svg)
 
 
 
