@@ -45,7 +45,7 @@ Therefore, one can write the laplacian of $V$ (Eq.②) as simple combination of 
 
 Now we use the **_ideal gas polytropic equation_** which states that for any polytropic index $n$, the ideal gas equation is 
 $P V^{1+\frac{1}{n}}=\text{constant}$.
-$V = \frac{M}{\rho}}$ implies that 
+$V = \frac{M}{\rho}$ implies that 
 ④ $P =K \rho^{1+\frac{1}{n}}$ where $K$ is a dimensional constant. 
 This equation can be understood by understanding $n$, that is when $n=0$ process is isothermal, $n=\gamma-1$ process is adiabatic. 
 
