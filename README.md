@@ -212,10 +212,6 @@ The values of $mass(r)$;
 The values of $pressure(r)$;
 ![Diagram](./pressure.png)
 
-Note: Because we _considered_ hydrostatic equilibrium, which is essentially competition between the forces due to pressure expansion and gravitational contraction. 
-To compare these forces, we take their ratios and study that (just like we define reynold's number for comparing inertial and viscous forces for understanding turbulence in flow). 
-We define $\beta(r) = \big|\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}\big| + 1$. 
-
 The values of $\frac{\partial P}{\partial r} (r)$;
 ![Diagram](./pressurederivative.png)
 
@@ -231,8 +227,17 @@ The values of $\rho(r) g(r)$;
 The values of $\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}$;
 ![Diagram](./ratio.png)
 
+We _assumed_ hydrostatic equilibrium, which is essentially a competition between the forces due to pressure expansion and gravitational contraction. 
+To compare these forces, we take their ratios and study that (just like we define reynold's number for comparing inertial and viscous forces for understanding turbulence in flow). 
+We define $\beta(r) = \big|\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}\big| + 1$. 
+
 The values of $\beta$;
 ![Diagram](./beta.png)
+
+Now we connect the Lane Emden further to the Eddington Emden Chandrasekhar Equation. 
+
+$\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{C \rho(r) \Phi(r)}{4 \sigma T^3}$ where $C$ is a constant of proportionality, we can further substitute $F(r) = \frac{L(r)}{4 \pi r^2}$ to obtain the luminosity relation. 
+The temperature can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
 
 The values of $temperature(r)$;
 ![Diagram](./T.png)
@@ -245,6 +250,20 @@ The values of $Luminosity(r)$;
 
 The essence of this equation is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities $\rho(r), M(r), P(r), g(r), \beta, T(r), L(r)$ provided the central density $\rho_{c}$, the polytropic constant $K$, the flux constant $C$, and the mean molecular weight $\mu$._**
 Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation (particular $n, \rho_{c}, K, C, \mu$ value). 
+
+The information of sun is given in below files. We want to fit this data using our knowledge. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
