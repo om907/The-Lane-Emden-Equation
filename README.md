@@ -55,10 +55,9 @@ Here we introduce a **_parametrization of density profile_** of the form
 
 Introducing ④ and ⑤ to the laplacian of $V$ we do the following steps to achieve the lane - emden equation. 
 $\frac{1}{r^2}\frac{\partial}{\partial r}\big( \frac{r^2}{\rho} \frac{\partial P}{\partial r}\big)  = -4 \pi G \rho(r)$
-$
-\begin{equation}
+$\begin{equation}
 P = K\rho_c^{1+\frac{1}{n}}\theta^{n+1}
-\end{equation} $
+\end{equation}$
 
 
 
