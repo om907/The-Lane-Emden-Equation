@@ -254,8 +254,8 @@ $\Phi( r + \mathrm{d}r ) - \Phi(r) = 4 \sigma T^3 \mathrm{d} T$
 
 Therefore, 
 $\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{C \rho(r) \Phi_{0}(r)}{4 \sigma T^3}$ we can further substitute $\Phi(r) = \frac{L(r)}{4 \pi r^2}$ to obtain the luminosity relation. 
-The temperature can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
 
+The temperature profile can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
 The values of $temperature(r)$;
 ![Diagram](./T.png)
 
