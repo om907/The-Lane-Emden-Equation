@@ -79,12 +79,12 @@ Divide by $K(n+1)\rho_c^{1/n}$
 
 $\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\theta}{\partial r}\right)=-\frac{4\pi G\rho_c}{K(n+1)\rho_c^{1/n}}\theta^n$
 
-Introduce the dimensionless variable
+Introduce the dimensionless variable $\xi$ such that
 
 $r = a \xi$
 
 where
-$a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$
+$a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$. Note that $[a]=[L]$. So $a$ is a length dimension constant. Now onwards we operate in the in a scaled basis $\xi$ { it is equivalent to $\frac{r}{a}$  
 
 After substitution and simplification we obtain the $\textbf{Lane Emden equation}$
 
