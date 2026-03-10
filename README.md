@@ -1,10 +1,8 @@
 # The Lane Emden Chandrasekhar Equation
 The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
-We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for n = 1 ( well known solution ) , then for general n. We will also compare the solution and parameters for various n. 
-Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system, which will be shocking to us while first reading but completely understandable and valid so. 
+We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system, which will be shocking to us while first reading but completely understandable and valid so. 
 
-Along the way we will ask ourselves and answer multiple what if questions, so it should be engaging to the reader if you ask yourself what could be the answer to the thought question prior to watching the answer yourself.
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
 Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention on my [email](mailto:omshah0405@gmail.com) so that I can rectify them.
@@ -16,8 +14,6 @@ Differential form is $\vec{\nabla}\cdot \vec{g} = - 4 \pi G \rho$.
 Integral form is $\iint \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
 
 Suppose in an empty space I add a source. A source is a aggregate body of mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$. This is considered a **_conservative field_**, that itself creates a force field around the source given by $\vec{F}=-\nabla V$. The force field is also given by $\vec{F}=m\vec{g}=\vec{g}$, (assume m=1).
-
-<!-- If we are allowed write some vector as a gradient of a scalar then $\vec{\nabla} × \vec{g}=0$. -->
 
 Substitute in gauss law, $\vec{g}=-\nabla V$ becomes $\vec{\nabla} \cdot -\nabla V = - 4 \pi G \rho$, or $\nabla^{2} V = 4 \pi G \rho$ which is the poisson's equation of gravitational gauss law.
 
@@ -32,7 +28,7 @@ Intuitively, we can state that potential field $V=V(r)$ created due to presence 
 So the Laplacian of V can be rewritten as, 
 ② $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$
 
-<!--     ⑦ ⑧ ⑨ ⑩ -->
+<!-- ⑦ ⑧ ⑨ ⑩ -->
 
 Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction, 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field. The equation is given by $F = \frac{\mathrm{d}P}{\mathrm{d}r}\mathrm{d}r\mathrm{d}A = -\frac{G M(r) \rho (r)}{r^2}\mathrm{d}r\mathrm{d}A$.
 
@@ -196,15 +192,56 @@ The values of a for increasing n integer values from 0 to 6;
 ![Diagram](./a.png)
 
 The values of rmax for increasing n integer values from 0 to 6;
+![Diagram](./rmax.png)
 
+The values of $\theta(\xi)$;
+![Diagram](./theta.png)
 
+The values of $\r(\xi)$;
+![Diagram](./r.png)
 
+Now we shift to r-axis for understanding the further plots;
+Note that you cannot achieve $\frac{partial \rho}{\partial \xi}$, so you have to shift back to physical radial coordinate. 
 
+The values of $\rho(r)$;
+![Diagram](./rho.png)
 
+The values of $mass(r)$;
+![Diagram](./mass.png)
 
+The values of $pressure(r)$;
+![Diagram](./pressure.png)
 
+Note: Because we _considered_ hydrostatic equilibrium, which is essentially competition between the forces due to pressure expansion and gravitational contraction. 
+To compare these forces, we take their ratios and study that (just like we define reynold's number for comparing inertial and viscous forces for understanding turbulence in flow). 
+We define $\beta(r) = \abs{\frac{\frac{\partial P}{\parital r}}{\rho(r) g(r)}} + 1$. 
 
+The values of $\frac{\partial P}{\parital r} (r)$;
+![Diagram](./pressurederivative.png)
 
+The values of $\abs{\frac{\partial P}{\parital r} (r)}$;
+![Diagram](./absolutepressurederivative.png)
+
+The values of $g(r)$;
+![Diagram](./gravitationalfield.png)
+
+The values of $\rho(r) g(r)$;
+![Diagram](./productrhogravitaionalfield.png)
+
+The values of $\beta$;
+![Diagram](./beta.png)
+
+The values of $temperature(r)$;
+![Diagram](./T.png)
+
+The values of $flux(r)$;
+![Diagram](./flux.png)
+
+The values of $Luminosity(r)$;
+![Diagram](./L.png)
+
+The essence of this equation is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities $\rho(r), M(r), P(r), g(r), \beta, T(r), L(r)$ provided the central density $\rho_{c}$, the polytropic constant $K$, the flux constant $C$, and the mean molecular weight $\mu$._**
+Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation (particular $n, \rho_{c}, K, C, \mu$. 
 
 
 
