@@ -234,6 +234,10 @@ We define $\beta(r) = \left|\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}\r
 The values of $\beta$;
 ![Diagram](./beta.png)
 
+The temperature profile can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
+The values of $temperature(r)$;
+![Diagram](./T.png)
+
 Now we connect the Lane Emden further to the Eddington Emden Chandrasekhar Equation which states that, 
 
 For a spherically symmetric massive body, the gravitational flux $\Phi(r)$ passing through a shell (ring shaped) of thickness $\mathrm{d} r$ located at radial distance $r$ from the center of body (origin is at the center of body) is given by 
@@ -254,10 +258,6 @@ $\Phi( r + \mathrm{d}r ) - \Phi(r) = 4 \sigma T^3 \mathrm{d} T$
 
 Therefore, 
 $\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{C \rho(r) \Phi_{0}(r)}{4 \sigma T^3}$ we can further substitute $\Phi(r) = \frac{L(r)}{4 \pi r^2}$ to obtain the luminosity relation. 
-
-The temperature profile can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
-The values of $temperature(r)$;
-![Diagram](./T.png)
 
 The values of $flux(r)$;
 ![Diagram](./flux.png)
