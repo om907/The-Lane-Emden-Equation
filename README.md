@@ -79,7 +79,7 @@ Divide by $K(n+1)\rho_c^{1/n}$
 
 $\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\theta}{\partial r}\right)=-\frac{4\pi G\rho_c}{K(n+1)\rho_c^{1/n}}\theta^n$
 
-**_Introduce the dimensionless variable $\xi$_** such that
+**_Introduce the dimensionless variable_** $\xi$ such that
 
 ⑥ $r = a \xi$
 
