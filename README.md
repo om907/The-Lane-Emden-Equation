@@ -21,7 +21,7 @@ Suppose in an empty space I add a source. A source is a aggregate body of mass l
 
 Substitute in gauss law, $\vec{g}=-\nabla V$ becomes $\vec{\nabla} \cdot -\nabla V = - 4 \pi G \rho$, or $\nabla^{2} V = 4 \pi G \rho$ which is the poisson's equation of gravitational gauss law.
 
-The laplacian of f(x,y) is divergence of a gradient of f(x,y). The gradient of f(x,y) indicates the steepest path to reach uphill in the curve. The divergence of any curve shows how the fluid will flow in that small region. The laplacian shows curvature. That means the laplacian will display convergence (laplacian is -ve valued) at maxima and (laplacian is +ve valued) divergence at minima. At maxima, the second derivative is negative and at minima, is positive. Thus laplacian of any curve can be understood by behavior of its second derivative. 
+The Laplacian of f(x,y) is divergence of a gradient of f(x,y). The gradient of f(x,y) indicates the steepest path to reach uphill in the curve. The divergence of any curve shows how the fluid will flow in that small region. The laplacian shows curvature. That means the laplacian will display convergence (laplacian is -ve valued) at maxima and (laplacian is +ve valued) divergence at minima. At maxima, the second derivative is negative and at minima, is positive. Thus laplacian of any curve can be understood by behavior of its second derivative. 
 
 Now, suppose the shape of the massive object in 3 dimensional space is **_spherically symmetric_**. The polar angle and azimuthal angle components are a constant. We primarily consider the density profile of the object given by 
 $\rho = \rho (r)$.
@@ -29,7 +29,7 @@ The density profile is strictly related to radial distance. The mass profile of 
 ① $\mathrm{d}M= \int \rho \mathrm{d}V$. 
 Intuitively, we can state that potential field $V=V(r)$ created due to presence of mass is also strictly related to radial distance. This is because of gravitational field $\vec{g} = \vec{g} (r)$. 
 
-So the laplacian of V can be rewritten as, 
+So the Laplacian of V can be rewritten as, 
 ② $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$
 
 <!--     ⑦ ⑧ ⑨ ⑩ -->
@@ -42,7 +42,7 @@ On simplification, this equation becomes,
 $\vec{F}=-\nabla V$ and $F=\frac{G M(r)}{r^{2}}$ allows us to rewrite the hydrostatic equilibrium equation as 
 $\frac{\partial V}{\partial r} = - \frac{1}{\rho} \frac{\partial P}{\partial r}$.
 
-Therefore, one can write the laplacian of $V$ (Eq.②) as simple combination of mass profile equation and hydrostatic equilibrium.  
+Therefore, one can write the Laplacian of $V$ (Eq.②) as simple combination of mass profile equation and hydrostatic equilibrium.  
 
 Now we use the **_ideal gas polytropic equation_** which states that for any polytropic index $n$, the ideal gas equation is 
 $P V^{1+\frac{1}{n}}=\text{constant}$.
