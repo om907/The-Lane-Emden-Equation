@@ -1,7 +1,7 @@
 # The Lane Emden Chandrasekhar Equation
 The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
-We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system, which will be shocking to us while first reading but completely understandable and valid so. 
+We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
 
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
@@ -87,6 +87,7 @@ After substitution and simplification we obtain the our equation,
 |---------------------|
 | $$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$$ |
 
+Below is the Mathematica code for solving the Lane Emden Equation;
 ```Mathematica
 Clear[LaneEmdenSolve]
 
