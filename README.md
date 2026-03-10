@@ -197,11 +197,11 @@ The values of rmax for increasing n integer values from 0 to 6;
 The values of $\theta(\xi)$;
 ![Diagram](./theta.png)
 
-The values of $\r(\xi)$;
+The values of $r(\xi)$;
 ![Diagram](./r.png)
 
 Now we shift to r-axis for understanding the further plots;
-Note that you cannot achieve $\frac{partial \rho}{\partial \xi}$, so you have to shift back to physical radial coordinate. 
+Note that you cannot achieve $\frac{\partial \rho}{\partial \xi}$, so you have to shift back to physical radial coordinate. 
 
 The values of $\rho(r)$;
 ![Diagram](./rho.png)
@@ -214,19 +214,19 @@ The values of $pressure(r)$;
 
 Note: Because we _considered_ hydrostatic equilibrium, which is essentially competition between the forces due to pressure expansion and gravitational contraction. 
 To compare these forces, we take their ratios and study that (just like we define reynold's number for comparing inertial and viscous forces for understanding turbulence in flow). 
-We define $\beta(r) = \abs{\frac{\frac{\partial P}{\parital r}}{\rho(r) g(r)}} + 1$. 
+We define $\beta(r) = |\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}| + 1$. 
 
 The values of $\frac{\partial P}{\parital r} (r)$;
 ![Diagram](./pressurederivative.png)
 
-The values of $\abs{\frac{\partial P}{\parital r} (r)}$;
+The values of $|\frac{\partial P}{\parital r} (r)|$;
 ![Diagram](./absolutepressurederivative.png)
 
 The values of $g(r)$;
 ![Diagram](./gravitationalfield.png)
 
 The values of $\rho(r) g(r)$;
-![Diagram](./productrhogravitaionalfield.png)
+![Diagram](./productrhogravitationalfield.png)
 
 The values of $\beta$;
 ![Diagram](./beta.png)
@@ -241,7 +241,7 @@ The values of $Luminosity(r)$;
 ![Diagram](./L.png)
 
 The essence of this equation is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities $\rho(r), M(r), P(r), g(r), \beta, T(r), L(r)$ provided the central density $\rho_{c}$, the polytropic constant $K$, the flux constant $C$, and the mean molecular weight $\mu$._**
-Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation (particular $n, \rho_{c}, K, C, \mu$. 
+Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation (particular $n, \rho_{c}, K, C, \mu$ value). 
 
 
 
