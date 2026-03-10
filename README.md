@@ -79,7 +79,7 @@ $r = a \xi$
 where
 $a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$
 
-After substitution and simplification we obtain the \textbf{Lane Emden equation}
+After substitution and simplification we obtain the $\textbf{Lane Emden equation}$
 
 $\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)=-\theta^n$
 
