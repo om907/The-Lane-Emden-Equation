@@ -91,13 +91,12 @@ After substitution and simplification we obtain the our equation,
 |---------------------|
 | $$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$$ |
 
-```Mathematica
-Clear[LaneEmdenSolve]
+```MathematicaClear[LaneEmdenSolve]
 
 LaneEmdenSolve[n_, xmax_ : 10, rhoC_ : 1, K_ : 1, G_ : 1] :=
  Module[
-  {eps = 10^-10, sol, a, thetaFun, rhoFun, rFun, pFun, massSol, delP, 
-   deltheta, delrho, g, B, arat, T},
+  {eps = 10^-10, sol, a, theta, rho, r, p, mass, delP, deltheta, 
+   delrho, g, B, ratio, T},
   sol =
    NDSolve[{
       \[Theta]''[\[Xi]] + (2/\[Xi]) \[Theta]'[\[Xi]] + \
@@ -108,44 +107,45 @@ LaneEmdenSolve[n_, xmax_ : 10, rhoC_ : 1, K_ : 1, G_ : 1] :=
   
   a = Sqrt[(K (n + 1) rhoC^(1/(n + eps) - 1))/(4 Pi G)];
   
-  thetaFun[\[Xi]_] := Evaluate[\[Theta][\[Xi]] /. sol];
-  deltheta[\[Xi]_] := thetaFun'[\[Xi]];
+  theta[\[Xi]_] := Evaluate[\[Theta][\[Xi]] /. sol];
+  deltheta[\[Xi]_] := theta'[\[Xi]];
   
-  rFun[\[Xi]_] := a \[Xi];
-  rhoFun[\[Xi]_] := rhoC thetaFun[\[Xi]]^n;
-  delrho[\[Xi]_] := rhoFun'[\[Xi]];
-  
-  (*rhoC n thetaFun[\[Xi]]^(n-1) deltheta[\[Xi]];*)
+  r[\[Xi]_] := a \[Xi];
+  rho[\[Xi]_] := rhoC theta[\[Xi]]^n;
+  delrho[\[Xi]_] := rho'[\[Xi]];
   
   (*Solve mass equation*)
-  massSol =
+  mass =
    NDSolveValue[{
-     M'[\[Xi]] == 4*Pi*a^3*\[Xi]^2*rhoFun[\[Xi]],
+     M'[\[Xi]] == 4*Pi*a^3*\[Xi]^2*rho[\[Xi]],
      M[0] == 0
      }, M, {\[Xi], 0, xmax}];
   
   (*Hydrostatic equilibrium*)
-  pFun[\[Xi]_] := K*rhoFun[\[Xi]]^(1 + 1/(n + eps));
-  delP[\[Xi]_] := pFun'[\[Xi]];
-  (*K(1+1/n)rhoFun[\[Xi]]^(1/n)delrho[\[Xi]];*)
+  p[\[Xi]_] := K*rho[\[Xi]]^(1 + 1/(n + eps));
+  delP[\[Xi]_] := p'[\[Xi]];
   
   (*g(\[Xi])*)
-  g[\[Xi]_] := (G massSol[\[Xi]])/(a^2 \[Xi]^2);
-  B[\[Xi]_] := Abs[delP[\[Xi]]/(rhoFun[\[Xi]] g[\[Xi]] )] + 1;
-  arat[\[Xi]_] := (\[Xi]^2 deltheta[\[Xi]])/massSol[\[Xi]];
-  T[\[Xi]_] := pFun[\[Xi]] 4/3 \[Pi] a^3 \[Xi]^3;
+  g[\[Xi]_] := (G mass[\[Xi]])/(a^2 \[Xi]^2);
+  B[\[Xi]_] := Abs[delP[\[Xi]]/(rho[\[Xi]] g[\[Xi]] )] + 1;
+  ratio[\[Xi]_] := (\[Xi]^2 deltheta[\[Xi]])/mass[\[Xi]];
+  T[\[Xi]_] := p[\[Xi]] 4/3 \[Pi] a^3 \[Xi]^3;
   <|
    "n" -> n,
    "Solution" -> sol,
-   "Theta" -> thetaFun,
-   "Rho" -> rhoFun,
-   "r" -> rFun, "a" -> a,
-   "Mass" -> massSol,
-   "Pressure" -> pFun,
+   "Theta" -> theta,
+   "Rho" -> rho,
+   "r" -> r, "a" -> a,
+   "Mass" -> mass,
+   "Pressure" -> p,
    "dPd\[Xi]" -> delP,
    "g" -> g,
    "B" -> B,
-   "arat" -> arat,
+   "arat" -> ratio,
    "T" -> T
    |>]
    ```
+
+Numerical solving involves using NDSolve where you first write your equation and boundary conditions. the boundary conditions are derived from solutions of n = 0.Instead of evaluating at 0, we evaluate at $eps=10^-10$. This approximation is done to avoid issues like ComplexInfinity solutions. Analytical boundary conditions are $\theta(0)=1$ and $\theta'(0)=0$. Thus numerical boundary conditions are slightly modified version of analytical boundary conditions. 
+
+To avoid ComplexInfinity, I have modified $a$ and $P$
