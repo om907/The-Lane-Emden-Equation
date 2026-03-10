@@ -32,7 +32,7 @@ Intuitively, we can state that potential field $V=V(r)$ created due to presence 
 So the laplacian of V can be rewritten as, 
 ② $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$
 
-<!--    ⑥ ⑦ ⑧ ⑨ ⑩ -->
+<!--     ⑦ ⑧ ⑨ ⑩ -->
 
 Let suppose body is a **_star_** and it is in **_hydrostatic equilibrium_**, this means that the star at each point is in _inertial equilibrium_ (_assumes perfect balance_) between the two forces: 1. star expansion due to nuclear reaction, 2. contraction due to increase in gravitational field as nuclear reactions happen, mass is increased in endproduct resulting in increased gravitational field. The equation is given by $F = \frac{\mathrm{d}P}{\mathrm{d}r}\mathrm{d}r\mathrm{d}A = -\frac{G M(r) \rho (r)}{r^2}\mathrm{d}r\mathrm{d}A$.
 
@@ -81,13 +81,13 @@ $\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial\theta}{\partial
 
 Introduce the dimensionless variable $\xi$ such that
 
-$r = a \xi$
+⑥ $r = a \xi$
 
 where
 $a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$. Note that $[a]=[L]$ so $a$ is a length dimension constant. From this point onward, we work in terms of the dimensionless radial coordinate $\xi$ defined by $\xi=\frac{r}{a}$ which represents the scaled version of the physical radius $r$. The logic of doing this lies in extreme simplication of the equation.
 
-After substitution and simplification we obtain the Lane Emden equation,
-| Lane–Emden Equation |
+After substitution and simplification we obtain the our equation,
+| Lane Emden Equation |
 |---------------------|
 | $$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$$ |
 ```python
