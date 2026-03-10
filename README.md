@@ -84,9 +84,9 @@ Introduce the dimensionless variable $\xi$ such that
 $r = a \xi$
 
 where
-$a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$. Note that $[a]=[L]$ so $a$ is a length dimension constant. Now onwards we operate in the in a scaled axis $\xi$ which is equivalent to $\frac{r}{a}$. 
+$a^2 =\frac{(n+1)K\rho_c^{\frac{1}{n}-1}}{4\pi G}$. Note that $[a]=[L]$ so $a$ is a length dimension constant. From this point onward, we work in terms of the dimensionless radial coordinate $\xi$ defined by $\xi=\frac{r}{a}$ which represents the scaled version of the physical radius $r$. The logic of doing this lies in extreme simplication of the equation of Lane Emden. 
 
-After substitution and simplification we obtain the $\textbf{Lane Emden equation}$
+After substitution and simplification we obtain the $\textbf{Lane Emden equation}$,
 
-$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$
+$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$.
 
