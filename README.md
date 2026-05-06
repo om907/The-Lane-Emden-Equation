@@ -260,7 +260,7 @@ $\Phi( r + \mathrm{d}r ) - \Phi(r) = 4 \sigma T^3 \mathrm{d} T$
 Therefore, 
 $\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{C \rho(r) \Phi_{0}(r)}{4 \sigma T^3}$ we can further substitute $\Phi(r) = \frac{L(r)}{4 \pi r^2}$ to obtain the luminosity relation. 
 
-The values of $flux(r)$;
+The values of $\Phi(r)$;
 ![Diagram](./flux.png)
 
 The values of $Luminosity(r)$;
