@@ -1,11 +1,18 @@
 # The Lane Emden Chandrasekhar Equation
 The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
-We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
+For a non-physics student, viewing this README page will help in following manner-
+1. How do we create a model by cumulating many "very basic ideas" in physics. We must start from something right?
+2. Develop a kind of smartness which is to combine many equations into one simple equation. 
+3. Techniques to solving non-linear differential equations numerically.  
+4. This concept is considered basic in all astrophysics courses, curious readers can deep dive. 
+
+We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. <!-- We deal more with the overall picture rather than the plots involved in this, so it is better to ignore the tiny details in each graph unless specified. This kind of idea is ubiquitous to all fields.--> Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
 
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
-Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention on my [email](mailto:omshah0405@gmail.com) so that I can rectify them.
+<!--Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention on my [email](mailto:omshah0405@gmail.com) so that I can rectify them.-->
+Possibile corrections can be mailed to me at my [email](mailto:omshah0405@gmail.com).
 
 Let us begin understanding the Lane Emden Chandrasekhar Equation.
 
@@ -267,7 +274,7 @@ The values of $Luminosity(r)$;
 ![Diagram](./L.png)
 
 The essence of combining these equations is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities_** $\rho(r), M(r), P(r), g(r), β, T(r), L(r)$ **_provided the central density_** $\rho_{c}$  **_,the polytropic constant_** $K$ **_,the flux constant_** $C$ **_, and the mean molecular weight_** $\mu$.
-Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation (particular $n, \rho_{c}, K, C, \mu$ value). 
+Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation <!--(particular $n, \rho_{c}, K, C, \mu$ value). -->
 
 The information of sun is given in below files. We want to fit this data using our knowledge. 
 
