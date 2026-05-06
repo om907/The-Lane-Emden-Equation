@@ -1,7 +1,7 @@
 # The Lane Emden Chandrasekhar Equation
 The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane and Robert Emden. It is of enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
-For a non-physics student, viewing this README page will help in following manner-
+For a non-physics student, reading this README page will help in following manner-
 1. How do we create a model by cumulating many "very basic ideas" in physics. We must start from something right?
 2. Develop a kind of smartness which is to combine many equations into one simple equation. 
 3. Techniques to solving non-linear differential equations numerically.  
