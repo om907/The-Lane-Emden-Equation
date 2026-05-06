@@ -183,7 +183,7 @@ LaneEmdenSolve[n_, \[Xi]max_ : 10, rhoC_ : 1, K_ : 1, G_ : 1, C_ : 1] :=
 
 We solve the equations in radial coordinate $r$ because everything is representable in $r$ not in $\xi$.
 
-Numerical solving involves using NDSolve where you first write your equation and boundary conditions. The boundary conditions are derived from solutions of n = 0. Instead of evaluating at 0, we evaluate at $eps=10^{-10}$. This approximation is done to avoid issues like ComplexInfinity solutions. Analytical boundary conditions are $\theta(0)=1$ and $\theta'(0)=0$. Thus numerical boundary conditions are slightly modified version of analytical boundary conditions. 
+Numerical solving involves using NDSolve where you first write your equation and boundary conditions. The boundary conditions are derived from solutions of n = 0. Analytical boundary conditions are $\theta(0)=1$ and $\theta'(0)=0$. Instead of evaluating at $\xi=0, we evaluate at $eps=10^{-10}$. This approximation is done to avoid issues like ComplexInfinity solutions.  Thus numerical boundary conditions are slightly modified version of analytical boundary conditions.
 
 To avoid ComplexInfinity, I have modified $a$ and $P$ also. 
 
