@@ -23,7 +23,7 @@ Now, suppose the shape of the massive object in 3 dimensional space is **_spheri
 $\rho = \rho (r)$.
 The density profile is strictly related to radial distance. The mass profile of the object is given by
 ① $\mathrm{d}M= \int \rho \mathrm{d}V$. 
-Intuitively, we can state that potential field $V=V(r)$ created due to presence of mass is also strictly related to radial distance. This is because of gravitational field $\vec{g} = \vec{g} (r)$. 
+We can state that potential field $V=V(r)$ created due to presence of mass is also strictly related to radial distance because of gravitational field $\vec{g} = \vec{g} (r)$. 
 
 So the Laplacian of V can be rewritten as, 
 ② $\nabla^{2} V = \frac{1}{r^2}\frac{\partial}{\partial r}\big( r^2 \frac{\partial V}{\partial r}\big)  = 4 \pi G \rho(r)$.
