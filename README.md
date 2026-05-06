@@ -7,7 +7,7 @@ For a non-physics student, reading this README page will help in following manne
 3. Techniques to solving non-linear differential equations numerically.  
 4. This concept is considered basic in all astrophysics courses, curious readers can deep dive. 
 
-We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. <!-- We deal more with the overall picture rather than the plots involved in this, so it is better to ignore the tiny details in each graph unless specified. This kind of idea is ubiquitous to all fields.--> Once equipped with all the knowledge we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
+We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. <!-- We deal more with the overall picture rather than the plots involved in this, so it is better to ignore the tiny details in each graph unless specified. This kind of idea is ubiquitous to all fields.--> Once equipped with all the information we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
 
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
