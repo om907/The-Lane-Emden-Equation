@@ -298,7 +298,7 @@ Columns in the Standard Model table (below) represent:
 12) X(^16O): the oxygen 16 mass fraction
 The Table begins here.
 
-M/Msun R/Rsun T Rho P L/Lsun X Y(He4) He3 C12 N14 O16
+| M/Msun | R/Rsun | T | Rho | P | L/Lsun | X | Y(He4) | He3 | C12 | N14 | O16 |
 0.0000004 0.00160 1.567e+07 1.529e+02 2.357e+17 0.00000 0.34608 0.63368 7.58e-06 1.05e-05 4.90e-03 8.57e-03
 0.0000005 0.00171 1.567e+07 1.529e+02 2.357e+17 0.00000 0.34608 0.63367 7.58e-06 1.05e-05 4.90e-03 8.57e-03
 0.0000006 0.00181 1.567e+07 1.529e+02 2.357e+17 0.00001 0.34609 0.63366 7.58e-06 1.05e-05 4.90e-03 8.57e-03
