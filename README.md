@@ -280,7 +280,7 @@ The essence of combining these equations is that **_for star containing ideal ga
 Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation. <!--(particular $n, \rho_{c}, K, C, \mu$ value). -->
 
 The information of sun is given in below files. We want to fit this data using our knowledge. 
-![Document](./sundata.pdf)
+[Open sundata.pdf](./sundata.pdf)
 
 
 
