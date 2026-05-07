@@ -278,7 +278,8 @@ The values of $Luminosity(r)$;
 
 The essence of combining these equations is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities_** $\rho(r), M(r), P(r), g(r), β, T(r), L(r)$ **_provided the central density_** $\rho_{c}$  **_,the polytropic constant_** $K$ **_,the flux constant_** $C$ **_, and the mean molecular weight_** $\mu$.
 Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation. <!--(particular $n, \rho_{c}, K, C, \mu$ value). -->
-The experimental data for our Sun is available online. In this project, we use our theoretical understanding to model and fit the data provided in [sundata.pdf](./sundata.pdf).
+
+The experimental data for our Sun is available online. As a mini project, we use our theoretical understanding to model and fit the data provided in [sundata.pdf](./sundata.pdf).
 
 
 
