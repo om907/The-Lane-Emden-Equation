@@ -241,7 +241,7 @@ Mass profile; The enclosed mass is calculated from $\frac{dM}{dr}=4\pi r^2\rho(r
 Pressure profile; The pressure follows the polytropic equation of state, $P=K\rho^{1+\frac{1}{n}}$. Pressure is largest at the center and decreases outward. It supplies the outward force necessary to balance gravitational collapse.
 ![Diagram](./figures/pressure.png)
 
-Pressure derivative $\frac{\partial P}{\partial r} (r)$; The pressure gradient is always negative because pressure decreases with increasing radius. According to hydrostatic equilibrium, $\frac{dP}{dr}=-\rho(r)g(r),$ the pressure gradient exactly balances the inward gravitational force.
+Pressure derivative $\frac{\partial P}{\partial r} (r)$; The pressure gradient is always negative because pressure decreases with increasing radius. According to hydrostatic equilibrium $,\frac{dP}{dr}=-\rho(r)g(r),$ the pressure gradient exactly balances the inward gravitational force.
 ![Diagram](./figures/pressurederivative.png)
 
 Absolute Value of Pressure derivative $|\frac{\partial P}{\partial r} (r)|$; The magnitude of the pressure gradient is $\left|\frac{dP}{dr}\right|.$ It measures the strength of the supporting pressure force without regard to direction. It is largest near the stellar center where both pressure and density are highest and gradually decreases outward.
