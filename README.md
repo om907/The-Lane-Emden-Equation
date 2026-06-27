@@ -1,5 +1,5 @@
-# The Lane Emden Chandrasekhar Equation
-The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane [1] and Robert Emden [2]. The theory of polytropic stellar structure was subsequently placed on a rigorous theoretical foundation by Subrahmanyan Chandrasekhar [3] in his 1939 monograph _An Introduction to the Study of Stellar Structure_. It has enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
+# The Lane Emden Equation
+The Lane Emden Equation was found in 1869 by astrophysicists Jonathan Homer Lane [1] and Robert Emden [2]. The theory of polytropic stellar structure was subsequently placed on a rigorous theoretical foundation by Subrahmanyan Chandrasekhar [3] in his 1939 monograph _An Introduction to the Study of Stellar Structure_. It has enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
 For a non-physics student, reading this README page will help in following manner-
 1. How do we create a model by cumulating many "very basic ideas" in physics. We must start from something right?
@@ -14,7 +14,7 @@ We will derive the Lane Emden Equation, and in that manner get to know the assum
 <!--Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention on my [email](mailto:omshah0405@gmail.com) so that I can rectify them.-->
 Possible corrections can be mailed to me at my [email](mailto:omshah0405@gmail.com).
 
-Let us begin understanding the Lane Emden Chandrasekhar Equation. 
+Let us begin understanding the Lane Emden Equation. 
 The gravitational Gauss law states that $\textit{The gravitational flux through any closed surface is proportional to the enclosed mass.}$
 Differential form is $\vec{\nabla}\cdot \vec{g} = - 4 \pi G \rho$.
 Integral form is $\iint \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
