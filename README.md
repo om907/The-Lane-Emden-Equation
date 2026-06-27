@@ -220,7 +220,7 @@ For $n$ integer values ranging from 0 to 6, the solutions are displayed below;
 The values of $a$ for increasing $n$ integer values from 0 to 6; As the polytropic index ($n$) increases, the scaling length changes because the relationship between pressure and density changes. This changes the physical size represented by one unit of the dimensionless coordinate.
 ![Diagram](./figures/a.png)
 
-The values of $r_max$ for increasing $n$ integer values from 0 to 6; The quantity $r_max =a ξ_max$ represents the physical radius of the numerical solution. Since it depends directly on the scaling length $a$, its value changes with the polytropic index. This illustrates how the characteristic size of the stellar model varies for different polytropic equations of state.
+The values of $r_max$ for increasing $n$ integer values from 0 to 6; The quantity $r_{max} =a ξ_{max}$ represents the physical radius of the numerical solution. Since it depends directly on the scaling length $a$, its value changes with the polytropic index. This illustrates how the characteristic size of the stellar model varies for different polytropic equations of state.
 ![Diagram](./figures/rmax.png)
 
 The values of $\theta(\xi)$; The function  $\theta(\xi)$ describes the normalized density distribution inside the star. Larger values of $n$ produce solutions that decrease more gradually near the center, indicating greater central concentration of matter.
