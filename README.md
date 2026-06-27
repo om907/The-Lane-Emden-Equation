@@ -1,4 +1,4 @@
-## The Lane Emden Chandrasekhar Equation
+# The Lane Emden Chandrasekhar Equation
 The Lane Emden Chandrasekhar Equation was found in 1869 by astrophysicists Jonathan Homer Lane [1] and Robert Emden [2]. The theory of polytropic stellar structure was subsequently placed on a rigorous theoretical foundation by Subrahmanyan Chandrasekhar [3] in his 1939 monograph _An Introduction to the Study of Stellar Structure_. It has enormous applications in field of astrophysics. It is essentially a mixture of various equations combined to give a single equation whose solutions help us derive all important parameters involved to understand the dynamics of a star. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
 For a non-physics student, reading this README page will help in following manner-
