@@ -310,9 +310,9 @@ This mini project develops a **single polytropic model of the Sun** based on the
 
 Using the initial parameters and methodology proposed in the paper, we construct a numerical model that reproduces the fundamental physical properties and internal structure of the Sun. The model yields a solar mass of 2.01 × 10³⁰ kg, a central temperature of 1.45 × 10⁷ K, and a dimensionless parameter β of the order of 10⁻⁸. These results are in good agreement with the expected solar parameters, demonstrating the effectiveness of the single-polytrope approximation.
 This results [ssm.pdf](./ssm.pdf) and the corresponding codebase [ssm.nb](./ssm.nb) is here.
-<details>
-
 </details>
+
+<details>
 <summary><strong>Summary</strong></summary>
 
 To conclude, I hope you found this project informative and inspiring. Throughout this work, we explored the application of electrostatics, vector calculus, hydrostatic equilibrium, the mass profile equation, and the ideal-gas polytropic equation to develop a simple yet effective model of the Sun.
