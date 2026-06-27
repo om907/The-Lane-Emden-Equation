@@ -238,7 +238,7 @@ Density profile; The density profile is obtained from $\rho(r)=\rho_c\theta(r)^n
 Mass profile; The enclosed mass is calculated from $\frac{dM}{dr}=4\pi r^2\rho(r)$. The enclosed mass increases continuously with radius because each spherical shell contributes additional matter. The slope gradually decreases near the stellar surface as the density approaches zero.
 ![Diagram](./figures/mass.png)
 
-Pressure profile; The pressure follows the polytropic equation of state, $ P=K\rho^{1+\frac{1}{n}}. $ Pressure is largest at the center and decreases outward. It supplies the outward force necessary to balance gravitational collapse.
+Pressure profile; The pressure follows the polytropic equation of state, $P=K\rho^{1+\frac{1}{n}}$. Pressure is largest at the center and decreases outward. It supplies the outward force necessary to balance gravitational collapse.
 ![Diagram](./figures/pressure.png)
 
 Pressure derivative $\frac{\partial P}{\partial r} (r)$; The pressure gradient is always negative because pressure decreases with increasing radius. According to hydrostatic equilibrium, $\frac{dP}{dr}=-\rho(r)g(r),$ the pressure gradient exactly balances the inward gravitational force.
