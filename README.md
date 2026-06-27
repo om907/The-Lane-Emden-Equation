@@ -218,7 +218,7 @@ To avoid ComplexInfinity, I have modified $a$ and $P$ also.
 For $n$ integer values ranging from 0 to 6, the solutions are displayed below;
 
 The values of a for increasing n integer values from 0 to 6;
-![Diagram](./a.png)
+![Diagram](./figures/a.png)
 
 The values of rmax for increasing n integer values from 0 to 6;
 ![Diagram](./rmax.png)
