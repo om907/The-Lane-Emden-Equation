@@ -12,7 +12,7 @@ We will derive the Lane Emden Equation, and in that manner get to know the assum
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
 <!--Whatever is stated in this webpage is checked multiple times and 100% legit information. Even then, there are possibilities of mistake is being made, so please mention on my [email](mailto:omshah0405@gmail.com) so that I can rectify them.-->
-Possibile corrections can be mailed to me at my [email](mailto:omshah0405@gmail.com).
+Possible corrections can be mailed to me at my [email](mailto:omshah0405@gmail.com).
 
 Let us begin understanding the Lane Emden Chandrasekhar Equation.
 
