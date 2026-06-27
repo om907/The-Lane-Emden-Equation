@@ -5,9 +5,9 @@ For a non-physics student, reading this README page will help in following manne
 1. How do we create a model by cumulating many "very basic ideas" in physics. We must start from something right?
 2. Develop a kind of smartness which is to combine many equations into one simple equation. 
 3. Techniques to solving non-linear differential equations numerically.  
-4. This concept is considered basic in all astrophysics courses, curious readers can deep dive. 
+4. This concept is considered basic in all astrophysics courses.
 
-We will derive the Lane Emden Equation, and in that manner get to know the assumptions as well as between the lines implications. We will together explore the solutions for general n. <!-- We deal more with the overall picture rather than the plots involved in this, so it is better to ignore the tiny details in each graph unless specified. This kind of idea is ubiquitous to all fields.--> Once equipped with all the information we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
+We will derive the Lane Emden Equation, and in that manner get to know the assumptions. We will then explore the solutions for general $n$. <!-- We deal more with the overall picture rather than the plots involved in this, so it is better to ignore the tiny details in each graph unless specified. This kind of idea is ubiquitous to all fields.--> Once equipped with all the information we need, we will together rediscover all the parameter values for our sun sitting at the center of our solar system.
 
 <!--  This equation can be a salad of symbols. So take your sweet time with it. -->
 
@@ -285,10 +285,10 @@ This mini project develops a **single polytropic model of the Sun** based on the
 Using the initial parameters and methodology proposed in the paper, we construct a numerical model that reproduces the fundamental physical properties and internal structure of the Sun. The model yields a solar mass of 2.01 × 10³⁰ kg, a central temperature of 1.45 × 10⁷ K, and a dimensionless parameter β of the order of 10⁻⁸. These results are in good agreement with the expected solar parameters, demonstrating the effectiveness of the single-polytrope approximation.
 This results [ssm.pdf](./ssm.pdf) and the corresponding codebase [ssm.nb](./ssm.nb) is here.
 
-Finally, on an ending note, I hope you find this long webpage lots of content  beneficial and inspiring 
+To conclude, I hope you found this project informative and inspiring. Throughout this work, we explored the application of electrostatics, vector calculus, hydrostatic equilibrium, the mass profile equation, and the ideal-gas polytropic equation to develop a simple yet effective model of the Sun.
 
-
-
+By introducing suitable dimensionless variables, we simplified the governing equations into a single differential equation. We then implemented the model in Mathematica, fitted the appropriate parameters, and successfully reproduced key solar properties, including the solar mass and central temperature.
+I am leaving this project here in the hope that it may be useful to others. If you build upon this work, improve the model, or extend it further, I would be delighted to hear about your results and learn from your contributions.
 
 
 
