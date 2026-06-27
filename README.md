@@ -20,7 +20,7 @@ Differential form is $\vec{\nabla}\cdot \vec{g} = - 4 \pi G \rho$.
 Integral form is $\iint \vec{g}\cdot \vec{\mathrm{d}A} =-4 \pi G M_{enc}$.
 
 <details>
-<summary><strong>##Assumptions</strong></summary>
+<summary><strong>Assumptions</strong></summary>
 
 Suppose in an empty space I add a source. A source is a aggregate body of mass localised in a finite volume. Newton tells us the source will create a gravitational potential field around the source $\displaystyle \propto -\frac{1}{r}$. This is considered a **_conservative field_**, that itself creates a force field around the source given by $\vec{F}=-\nabla V$. The force field is also given by $\vec{F}=m\vec{g}=\vec{g}$, (assume m=1).
 
@@ -33,7 +33,7 @@ Now, suppose the shape of the massive object in 3 dimensional space is **_spheri
 </details>
 
 <details>
-<summary><strong>##Derivations</strong></summary>
+<summary><strong>Derivations</strong></summary>
 
 We primarily consider the density profile of the object given by 
 $\rho = \rho (r)$.
@@ -105,8 +105,10 @@ After substitution and simplification we obtain the our equation,
 | Lane Emden Equation |
 |---------------------|
 | $$\frac{1}{\xi^2}\frac{d}{d\xi}\left(\xi^2\frac{d\theta}{d\xi}\right)+\theta^n=0$$ |
-
-## Numerical Method
+<details>
+ 
+<details>
+<summary><strong>Numerical Method</strong></summary>
 
 Below is the Mathematica code for solving the Lane Emden Equation;
 ```Mathematica
@@ -291,20 +293,30 @@ Luminosity profile;
 
 The essence of combining these equations is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities_** $\rho(r), M(r), P(r), g(r), β, T(r), L(r)$ **_provided the central density_** $\rho_{c}$  **_,the polytropic constant_** $K$ **_,the flux constant_** $C$ **_, and the mean molecular weight_** $\mu$.
 Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation. <!--(particular $n, \rho_{c}, K, C, \mu$ value). -->
+<details>
 
-## Solar Model
+<details>
+<summary><strong>Solar Model</strong></summary>
+
 This mini project develops a **single polytropic model of the Sun** based on the work of Archibald W. Henry [4] in his paper, _A Polytropic Model of the Sun_.
 
 Using the initial parameters and methodology proposed in the paper, we construct a numerical model that reproduces the fundamental physical properties and internal structure of the Sun. The model yields a solar mass of 2.01 × 10³⁰ kg, a central temperature of 1.45 × 10⁷ K, and a dimensionless parameter β of the order of 10⁻⁸. These results are in good agreement with the expected solar parameters, demonstrating the effectiveness of the single-polytrope approximation.
 This results [ssm.pdf](./ssm.pdf) and the corresponding codebase [ssm.nb](./ssm.nb) is here.
+<details>
 
-## Summary
+<details>
+<summary><strong>Summary</strong></summary>
+
 To conclude, I hope you found this project informative and inspiring. Throughout this work, we explored the application of electrostatics, vector calculus, hydrostatic equilibrium, the mass profile equation, and the ideal-gas polytropic equation to develop a simple yet effective model of the Sun.
 
 By introducing suitable dimensionless variables, we simplified the governing equations into a single differential equation. We then implemented the model in Mathematica, fitted the appropriate parameters, and successfully reproduced key solar properties, including the solar mass and central temperature.
 I am leaving this project here in the hope that it may be useful to others. If you build upon this work, improve the model, or extend it further, I would be delighted to hear about your results and learn from your contributions.
 
-## References
+<details>
+
+ 
+<details>
+<summary><strong>References</strong></summary>
 
 1. Lane, J. H. (1870). *On the Theoretical Temperature of the Sun under the Hypothesis of a Gaseous Mass Maintaining Its Volume by Its Internal Heat*. American Journal of Science and Arts, 50, 57–74.
 
@@ -313,3 +325,5 @@ I am leaving this project here in the hope that it may be useful to others. If y
 3. Chandrasekhar, S. (1939). *An Introduction to the Study of Stellar Structure*. University of Chicago Press.
 
 4. Henry, A. W. *A Polytropic Model of the Sun*. The Astrophysical Journal.
+
+</details>
