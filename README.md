@@ -221,51 +221,51 @@ The values of a for increasing n integer values from 0 to 6;
 ![Diagram](./figures/a.png)
 
 The values of rmax for increasing n integer values from 0 to 6;
-![Diagram](./rmax.png)
+![Diagram](./figures/rmax.png)
 
 The values of $\theta(\xi)$;
-![Diagram](./theta.png)
+![Diagram](./figures/theta.png)
 
 The values of $r(\xi)$;
-![Diagram](./r.png)
+![Diagram](./figures/r.png)
 
 Now we shift to r-axis for understanding the further plots;
 Note that you cannot achieve $M(\xi)$, so you have to shift back to physical radial coordinate. 
 
 Density profile;
-![Diagram](./rho.png)
+![Diagram](./figures/rho.png)
 
 Mass profile;
-![Diagram](./mass.png)
+![Diagram](./figures/mass.png)
 
 Pressure profile;
-![Diagram](./pressure.png)
+![Diagram](./figures/pressure.png)
 
 Pressure derivative $\frac{\partial P}{\partial r} (r)$;
-![Diagram](./pressurederivative.png)
+![Diagram](./figures/pressurederivative.png)
 
 Absolute Value of Pressure derivative $|\frac{\partial P}{\partial r} (r)|$;
-![Diagram](./absolutepressurederivative.png)
+![Diagram](./figures/absolutepressurederivative.png)
 
 Gravitational field $g(r)$;
-![Diagram](./gravitationalfield.png)
+![Diagram](./figures/gravitationalfield.png)
 
 Product $\rho(r) g(r)$;
-![Diagram](./productrhogravitationalfield.png)
+![Diagram](./figures/productrhogravitationalfield.png)
 
 Quantity $\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}$;
-![Diagram](./ratio.png)
+![Diagram](./figures/ratio.png)
 
 We _assumed_ hydrostatic equilibrium, which is essentially a competition between the forces due to pressure expansion and gravitational contraction. 
 To compare these forces, we take their ratios and study that (just like we define reynold's number for comparing inertial and viscous forces for understanding turbulence in flow). 
 We define $\beta(r) = \left|\frac{\frac{\partial P}{\partial r}}{\rho(r) g(r)}\right| + 1$. The $+ 1$ is considered for a specific reason, $\beta(r) = \rho(r) A(r)$ where $A$ is non-inertial acceleration of the frame. Thus, $\beta$ corresponds to the deviation parameter from the hydrostatic equilibrium where small $\beta$ means less deviation. 
 
 $\beta$ parameter;
-![Diagram](./beta.png)
+![Diagram](./figures/beta.png)
 
 The temperature profile can be obtained from a simple ideal gas equation $P\mu = \rho k_{b} T$. 
 Temperature profile;
-![Diagram](./T.png)
+![Diagram](./figures/T.png)
 
 </details>
 
@@ -294,10 +294,10 @@ Therefore,
 $\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{C \rho(r) \Phi_{0}(r)}{4 \sigma T^3}$ we can further substitute $\Phi(r) = \frac{L(r)}{4 \pi r^2}$ to obtain the luminosity relation. 
 
 Flux profile;
-![Diagram](./flux.png)
+![Diagram](./figures/flux.png)
 
 Luminosity profile;
-![Diagram](./L.png)
+![Diagram](./figures/L.png)
 
 The essence of combining these equations is that **_for star containing ideal gas, which has spherical symmetry, we can now find for any thermodynamic process (polytropic index $n$), we can find the quantities_** $\rho(r), M(r), P(r), g(r), β, T(r), L(r)$ **_provided the central density_** $\rho_{c}$  **_,the polytropic constant_** $K$ **_,the flux constant_** $C$ **_, and the mean molecular weight_** $\mu$.
 Knowing this, now its just fitting the observed information of stars to this equation's results in different $r$ regions. If we are lucky, there could be some star which is completely expressed by a single lane emden equation. <!--(particular $n, \rho_{c}, K, C, \mu$ value). -->
@@ -309,7 +309,7 @@ Knowing this, now its just fitting the observed information of stars to this equ
 This mini project develops a **single polytropic model of the Sun** based on the work of Archibald W. Henry [4] in his paper, _A Polytropic Model of the Sun_.
 
 Using the initial parameters and methodology proposed in the paper, we construct a numerical model that reproduces the fundamental physical properties and internal structure of the Sun. The model yields a solar mass of 2.01 × 10³⁰ kg, a central temperature of 1.45 × 10⁷ K, and a dimensionless parameter β of the order of 10⁻⁸. These results are in good agreement with the expected solar parameters, demonstrating the effectiveness of the single-polytrope approximation.
-This results [ssm.pdf](./ssm.pdf) and the corresponding codebase [ssm.nb](./ssm.nb) is here.
+This results [ssm.pdf](./reports/ssm.pdf) and the corresponding codebase [ssm.nb](./notebooks/ssm.nb) is here.
 </details>
 
 <details>
