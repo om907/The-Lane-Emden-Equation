@@ -1,4 +1,9 @@
 # The Lane Emden Equation
+![Wolfram Language](https://img.shields.io/badge/Wolfram-Language-DD1100?logo=wolfram&logoColor=white)
+![Astrophysics](https://img.shields.io/badge/Field-Astrophysics-blue)
+![Numerical Methods](https://img.shields.io/badge/Method-Numerical%20ODE-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 The Lane Emden Equation was found in 1869 by astrophysicists Jonathan Homer Lane [1] and Robert Emden [2]. The theory of polytropic stellar structure was subsequently placed on a rigorous theoretical foundation by Subrahmanyan Chandrasekhar [3] in his 1939 monograph _An Introduction to the Study of Stellar Structure_. It has enormous applications in field of astrophysics. The Lane–Emden equation is obtained by combining Poisson's equation for gravity, the equation of hydrostatic equilibrium, and a polytropic equation of state. Its solutions provide simple models of self-gravitating gaseous spheres and form one of the foundations of stellar structure theory. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
 For a non-physics student, reading this README page will help in following manner-
@@ -331,12 +336,12 @@ I am leaving this project here in the hope that it may be useful to others. If y
 <details>
 <summary><strong>References</strong></summary>
 
-1. Lane, J. H. (1870). *On the Theoretical Temperature of the Sun under the Hypothesis of a Gaseous Mass Maintaining Its Volume by Its Internal Heat*. American Journal of Science and Arts, 50, 57–74.
+1. Lane, J. H. (1870). [*On the Theoretical Temperature of the Sun under the Hypothesis of a Gaseous Mass Maintaining Its Volume by Its Internal Heat*](https://doi.org/10.2475/ajs.s2-50.148.57). *American Journal of Science and Arts*, **50**, 57–74.
 
-2. Emden, R. (1907). *Gaskugeln*. Leipzig: B. G. Teubner.
+2. Emden, R. (1907). [*Gaskugeln*](https://doi.org/10.1007/978-1-4419-9917-7_412). Leipzig: B. G. Teubner.
 
-3. Chandrasekhar, S. (1939). *An Introduction to the Study of Stellar Structure*. University of Chicago Press.
+3. Chandrasekhar, S. (1939). [*An Introduction to the Study of Stellar Structure*](https://archive.org/details/in.ernet.dli.2015.212456). University of Chicago Press.
 
-4. Henry, A. W. *A Polytropic Model of the Sun*. The Astrophysical Journal.
+4. Henry, A. W. [*A Polytropic Model of the Sun*](https://doi.org/10.1119/1.17362). The Astrophysical Journal.
 
 </details>
