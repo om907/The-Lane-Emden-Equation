@@ -3,6 +3,7 @@
 ![Astrophysics](https://img.shields.io/badge/Field-Astrophysics-blue)
 ![Numerical Methods](https://img.shields.io/badge/Method-Numerical%20ODE-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
+![Educational](https://img.shields.io/badge/Purpose-Educational-purple)
 
 The Lane Emden Equation was found in 1869 by astrophysicists Jonathan Homer Lane [1] and Robert Emden [2]. The theory of polytropic stellar structure was subsequently placed on a rigorous theoretical foundation by Subrahmanyan Chandrasekhar [3] in his 1939 monograph _An Introduction to the Study of Stellar Structure_. It has enormous applications in field of astrophysics. The Lane–Emden equation is obtained by combining Poisson's equation for gravity, the equation of hydrostatic equilibrium, and a polytropic equation of state. Its solutions provide simple models of self-gravitating gaseous spheres and form one of the foundations of stellar structure theory. To understand this needs elementary knowledge and bit of numerical solving of differential equations. I use Mathematica to solve this equation. My aim is to understand this equation. 
 
